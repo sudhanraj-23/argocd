@@ -16,7 +16,7 @@ spec:
         - name: installCRDs
           value: "true"
     repoURL: https://istio-release.storage.googleapis.com/charts
-    targetRevision: 1.16.1
+    targetRevision: 1.1.0
   syncPolicy:
     automated: {}
     syncOptions:
