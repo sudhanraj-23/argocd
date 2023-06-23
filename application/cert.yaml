@@ -1,11 +1,11 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: cert-application
-  namespace: argocd
+  name: cert-app
+  namespace: cert-man
 spec:
   destination:
-    namespace: argocd
+    namespace: cert-man
     server: https://kubernetes.default.svc
   project: default
   source:
