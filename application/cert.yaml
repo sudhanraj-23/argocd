@@ -16,7 +16,7 @@ spec:
         - name: installCRDs
           value: "true"
         - name: replicaCount
-          value: '3' 
+          value: '5' 
     repoURL: https://charts.jetstack.io
     targetRevision: v1.12.1
   syncPolicy:
